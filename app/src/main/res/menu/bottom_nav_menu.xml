@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Tasks"
+        android:icon="@drawable/tasks1"
+        android:title="Jobs" />
+
+    <item
+        android:id="@+id/Customers"
+        android:icon="@drawable/customers1"
+        android:title="Customers" />
+    <item
+        android:id="@+id/Labels"
+        android:icon="@drawable/labels_icon"
+        android:title="Labels" />
+    <item
+        android:id="@+id/Leads"
+        android:icon="@drawable/leads"
+        android:title="Leads" />
+    <item
+        android:id="@+id/MyBusiness"
+        android:icon="@drawable/mybusiness1"
+        android:title="My Business" />
+</menu>

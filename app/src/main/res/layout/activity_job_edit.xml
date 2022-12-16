@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.JobEditActivity">
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Edit Job"
+
+            android:background="@color/purple"
+            app:titleTextColor="@color/white"
+            android:id="@+id/toolbar"
+            app:navigationIcon="@drawable/back_btn"/>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/MC_CustomerImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/labels_icon"
+                        android:layout_gravity="center"
+                        android:id="@+id/Job_Image"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:id="@+id/C_CustomersImageText"
+                        android:textColor="@color/red"
+                        android:fontFamily="@font/librebaskerville_bold"
+                        android:text="Set Job Image"/>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+            <Button
+                android:id="@+id/btnPick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:text="Set Reminder Date"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Option)"
+                android:textColor="@color/red"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="CustomerName"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Get CustomerName"
+                    android:textAllCaps="false"
+                    android:textColor="@color/red"
+                    android:textSize="20sp"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:id="@+id/C_CustomerName"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Option)"
+                android:visibility="gone"
+                android:textColor="@color/red"
+                android:layout_marginTop="10dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                app:startIconDrawable="@drawable/customers1"
+                app:startIconTint="@color/purple"
+                app:boxStrokeColor="@color/purple"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Task Decription"
+                    android:inputType="text"
+                    android:fontFamily="@font/librebaskerville_bold"
+                    android:id="@+id/T_TaskDecription"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                app:startIconDrawable="@drawable/customers1"
+                app:startIconTint="@color/purple"
+                app:boxStrokeColor="@color/purple"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="JobName"
+                    android:inputType="text"
+                    android:fontFamily="@font/librebaskerville_bold"
+                    android:id="@+id/JobName"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="JobStatus"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"/>
+                <Spinner
+                    android:id="@+id/JobStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:drawable/btn_dropdown"
+                    android:spinnerMode="dialog" />
+
+            </LinearLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                app:startIconDrawable="@drawable/customers1"
+                app:startIconTint="@color/purple"
+                app:boxStrokeColor="@color/purple"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Bill Amount"
+                    android:inputType="number"
+                    android:fontFamily="@font/librebaskerville_bold"
+                    android:id="@+id/BillAmount"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                app:startIconDrawable="@drawable/customers1"
+                app:startIconTint="@color/purple"
+                app:boxStrokeColor="@color/purple"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="JobCreateBy"
+                    android:inputType="text"
+                    android:fontFamily="@font/librebaskerville_bold"
+                    android:id="@+id/JobCreateBy"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="JobAssignBy"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:textSize="19sp"
+                    android:layout_gravity="center"/>
+                <Spinner
+                    android:id="@+id/JobAssignBy"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:drawable/btn_dropdown"
+                    android:spinnerMode="dialog" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="JobCreateDate"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:layout_gravity="center"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="dd-mm-yyy"
+                    android:textAllCaps="false"
+                    android:textColor="@color/red"
+                    android:textSize="20sp"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:id="@+id/JobCreateDate"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="JobCloseDate"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:layout_gravity="center"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="dd-mm-yyy"
+                    android:textAllCaps="false"
+                    android:textColor="@color/red"
+                    android:textSize="20sp"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:id="@+id/JobCloseDate"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="300dp"
+                android:weightSum="2">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Edit"
+                    android:textColor="@color/white"
+                    app:cornerRadius="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/T_OK"
+                    android:layout_weight="1"
+                    android:backgroundTint="#43A047"
+                    android:layout_marginTop="10dp"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Delete"
+                    android:textColor="@color/white"
+                    app:cornerRadius="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/Delete"
+                    android:layout_marginLeft="5dp"
+                    android:backgroundTint="#43A047"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</LinearLayout>

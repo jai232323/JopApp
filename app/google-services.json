@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "547427215451",
+    "project_id": "fastleader-dc4e0",
+    "storage_bucket": "fastleader-dc4e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547427215451:android:1ff27f651ae8630df1b77e",
+        "android_client_info": {
+          "package_name": "com.example.fastleader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547427215451-i6u8m5n6ej43nlrpemkg4s5hoscfv0bn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuCBfgJX0E-_pa7LdDhuiCScWTxgzon8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547427215451-i6u8m5n6ej43nlrpemkg4s5hoscfv0bn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/Jobimage"
+                android:layout_gravity="center"
+                android:src="@drawable/fast_leaders_logo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JobStatus"
+                        android:textSize="15dp"
+                        android:textAllCaps="true"
+                        android:id="@+id/JobStatus"
+                        android:layout_weight="1"
+                        android:textColor="@color/blue"
+                        android:fontFamily="@font/opensans"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JobName"
+                        android:textSize="13dp"
+                        android:layout_marginLeft="5dp"
+                        android:id="@+id/JobName"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:fontFamily="@font/opensans"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CustomerName"
+                        android:textSize="13dp"
+                        android:layout_marginLeft="5dp"
+                        android:id="@+id/CustomerName"
+                        android:layout_gravity="center"
+                        android:gravity="end"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/opensans"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="JobCreateBy"
+                        android:textSize="13dp"
+                        android:id="@+id/JobCreateBy"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/opensans"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="JobAssignBy"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:textSize="13dp"
+                        android:id="@+id/JobAssignBy"
+                        android:fontFamily="@font/opensans"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BillAmount"
+                        android:textSize="13dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:id="@+id/BillAmount"
+                        android:fontFamily="@font/opensans"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JobCreateDate"
+                        android:id="@+id/JobCreateDate"
+                        android:textColor="@color/red"
+                        android:layout_weight="1"
+                        android:textSize="13dp"
+                        android:layout_gravity="end"
+                        android:gravity="end"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/opensans"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JobCloseDate"
+                        android:textSize="13dp"
+                        android:textColor="@color/red"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:id="@+id/JobCloseDate"
+                        android:fontFamily="@font/opensans"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="end"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/donts"
+                        android:visibility="gone"
+                        android:id="@+id/dotsedit"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/blue"/>
+
+
+    </LinearLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>

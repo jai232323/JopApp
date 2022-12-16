@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.AddLeadsActivity">
+
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Add New Lead"
+            android:background="@color/purple"
+            app:titleTextColor="@color/white"
+            android:id="@+id/toolbar"
+            app:navigationIcon="@drawable/back_btn"/>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/MC_LeadsImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="5dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/labels_icon"
+                            android:layout_gravity="center"
+                            android:id="@+id/LeadsImage"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:id="@+id/LeadImageText"
+                            android:textColor="@color/red"
+                            android:fontFamily="@font/librebaskerville_bold"
+                            android:text="Set Lead Image"/>
+
+                    </LinearLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                app:startIconDrawable="@drawable/customers1"
+                app:startIconTint="@color/purple"
+                app:boxStrokeColor="@color/purple"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Lead Name"
+                    android:inputType="text"
+                    android:fontFamily="@font/librebaskerville_bold"
+                    android:id="@+id/L_LeadName"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                app:startIconDrawable="@drawable/customers1"
+                app:startIconTint="@color/purple"
+                app:boxStrokeColor="@color/purple"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Company"
+                    android:inputType="text"
+                    android:fontFamily="@font/librebaskerville_bold"
+                    android:id="@+id/L_Company"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                app:startIconDrawable="@drawable/customers1"
+                app:startIconTint="@color/purple"
+                app:boxStrokeColor="@color/purple"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="MobileNumber"
+                    android:inputType="number"
+                    android:fontFamily="@font/librebaskerville_bold"
+                    android:id="@+id/L_MobileNumber"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    app:startIconDrawable="@drawable/customers1"
+                    app:startIconTint="@color/purple"
+                    app:boxStrokeColor="@color/purple"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:fontFamily="@font/librebaskerville_bold"
+                        android:id="@+id/L_Email"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    app:startIconDrawable="@drawable/customers1"
+                    app:startIconTint="@color/purple"
+                    app:boxStrokeColor="@color/purple"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Address"
+                        android:inputType="text"
+                        android:fontFamily="@font/librebaskerville_bold"
+                        android:id="@+id/L_Address"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    app:startIconDrawable="@drawable/customers1"
+                    app:startIconTint="@color/purple"
+                    app:boxStrokeColor="@color/purple"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Add Event (E.G : BIRTHDAY)"
+                        android:inputType="text"
+                        android:fontFamily="@font/librebaskerville_bold"
+                        android:id="@+id/L_AddEvent"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OK"
+                    android:textColor="@color/white"
+                    app:cornerRadius="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/L_OK"
+                    android:layout_marginBottom="200dp"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

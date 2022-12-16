@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UserName"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:fontFamily="@font/librebaskerville_bold"
+            android:textSize="16dp"
+            android:id="@+id/UserName"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MobileNumber"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:fontFamily="@font/librebaskerville_bold"
+            android:textSize="16dp"
+            android:id="@+id/MobileNumber"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

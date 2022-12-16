@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/drawable/add_fab.xml" value="0.129" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/drawable/bd_circle.xml" value="0.1" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/drawable/circle.xml" value="0.1655" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/drawable/customers1.xml" value="0.143" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/drawable/dots.xml" value="0.156" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/drawable/name.xml" value="0.156" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/drawable/password.xml" value="0.156" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/drawable/round_grey.xml" value="0.142" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/drawable/save.xml" value="0.1495" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/drawable/tasks1.xml" value="0.156" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_add_company.xml" value="0.25" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_add_customers.xml" value="0.25" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_add_label.xml" value="0.25" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_add_leads.xml" value="0.23425925925925925" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_add_price_proposals.xml" value="0.2359375" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_add_task.xml" value="0.25" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_company_edit.xml" value="0.2359375" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_create_label.xml" value="0.2359375" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_dynamically_linea_layout.xml" value="0.25" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_edit_customer.xml" value="0.25" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_full_imager.xml" value="0.6015037593984962" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_job_edit.xml" value="0.2359375" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_price_proposals.xml" value="0.2359375" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_show_companies.xml" value="0.2359375" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_show_customer_name.xml" value="0.2359375" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_show_label.xml" value="0.2359375" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_show_users.xml" value="0.2359375" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_test.xml" value="0.2323076923076923" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_upload_csv_or_excel.xml" value="0.25" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_user_login.xml" value="0.24615384615384617" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/activity_user_register.xml" value="0.24615384615384617" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/customer_adapter.xml" value="0.264" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/customername_adapter.xml" value="0.24895833333333334" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/fragment_customer.xml" value="0.25" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/fragment_first.xml" value="0.10989583333333333" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/fragment_label.xml" value="0.25" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/fragment_leads.xml" value="0.25" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/fragment_my_business.xml" value="0.264" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/fragment_task.xml" value="0.25" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/grid_item.xml" value="0.24895833333333334" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/label_adapter.xml" value="0.24895833333333334" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/layout_dropdpwn.xml" value="0.25" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/leads_adapter.xml" value="0.1875" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/no_companies.xml" value="0.25" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/no_jobs.xml" value="0.25" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/pricepropsal_adapter.xml" value="0.24895833333333334" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/row_add.xml" value="0.2" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/show_dialogbox.xml" value="0.25" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/showlabelvalue_adapter.xml" value="0.24895833333333334" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/spinner_row.xml" value="0.20427350427350427" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/task_adapter.xml" value="0.264" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/layout/useradapter.xml" value="0.25" />
+        <entry key="..\:/Fast Xpo pvt lmt/FastLEADer/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
